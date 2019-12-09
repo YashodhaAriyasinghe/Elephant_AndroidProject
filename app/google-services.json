@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "133307444935",
+    "firebase_url": "https://elephant-androidproject.firebaseio.com",
+    "project_id": "elephant-androidproject",
+    "storage_bucket": "elephant-androidproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133307444935:android:0c0ca73d6fe7f1f13a18e2",
+        "android_client_info": {
+          "package_name": "com.example.elephant_androidproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133307444935-acillm2v32ifmolo8slt3ralfqgm7cd7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elephant_androidproject",
+            "certificate_hash": "48c548cb31ca0502a2c82de6e9d6d4cdd52d53fd"
+          }
+        },
+        {
+          "client_id": "133307444935-v49vet3qef6up6fjf52dcj1llhsu43t5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAthoXHT8Zq44JwI6a3U85YquX0TeJxLWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133307444935-v49vet3qef6up6fjf52dcj1llhsu43t5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
