@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.elephant_androidproject">
 
     <dist:module dist:instant="true" />
@@ -13,12 +14,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".MainActivity">
 
             <meta-data
                 android:name="com.google.firebase.ml.vision.DEPENDENCIES"
-                android:resource="label"/>
+                android:value="label" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

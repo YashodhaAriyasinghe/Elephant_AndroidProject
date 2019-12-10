@@ -8,7 +8,7 @@ import java.net.Socket;
 
 public class EleInternetCheck extends AsyncTask<Void,Void,Boolean> {
 
-    interface Consumer{
+    public interface Consumer{
         void accept(boolean internet);
     }
 
